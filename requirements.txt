@@ -1,0 +1,2 @@
+google-api-python-client==2.184.0
+TikTokLive>=6.6.0
