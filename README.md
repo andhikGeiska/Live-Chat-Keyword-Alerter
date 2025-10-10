@@ -209,15 +209,16 @@ python tiktok_monitor.py --keywords "restock" "new drop" "available now"
 
 ## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
+
+- How to report bugs and request features
+- Development setup and coding standards
+- Pull request process
+- Code of conduct
 
 ## License
 
-This project is open source. Please check the repository for license details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Disclaimer
 
